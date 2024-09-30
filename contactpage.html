@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liverpool FC Contact Us</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E00000; /* Liverpool red background */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contact-section {
+            padding: 50px 0;
+            background: url('contact-form-background.jpg') no-repeat center center/cover;
+            min-height: 100vh;
+        }
+
+        .contact-container {
+            background-color: rgba(0, 0, 0, 0.6); /* Transparent dark overlay */
+            padding: 50px;
+            border-radius: 10px;
+        }
+
+        .contact-info {
+            color: #fff;
+        }
+
+        .contact-info h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info ul li {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .contact-info ul li i {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #F6A500; /* Yellow-orange accent */
+        }
+
+        /* Logo Styling */
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo img {
+            width: 150px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            background: #333; /* Dark background for inputs */
+            color: #fff;
+            border: none;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .contact-form input:focus, .contact-form textarea:focus {
+            outline: none;
+            border: 1px solid #F6A500; /* Focus with yellow-orange border */
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #F6A500; /* Submit button in yellow-orange */
+            color: #fff;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #ffcc33; /* Lighter yellow-orange on hover */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Contact Section -->
+    <div class="container-fluid contact-section d-flex justify-content-center align-items-center">
+        <div class="container contact-container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <!-- Liverpool FC Logo -->
+                        <img src="Download Liverpool Football Club Badge Wallpaper - GetWalls_io.jpg" alt="Liverpool FC Logo">
+                    </div>
+                    <div class="contact-info">
+                        <h2>Contact Us</h2>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Ankrah Road, bugujju, David ark street, uganda</li>
+                            <li><i class="fas fa-phone"></i> <Phone class="0708018832"></Phone></li>
+                            <li><i class="fas fa-envelope"></i> Email: abelamanya063@gmail.com</li>
+                            <li><i class="fas fa-globe"></i> Website: www.liverpoolfc.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <form action="submit_form.php" method="POST">
+                            <div class="mb-3">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-warning btn-lg w-100" value="Send Message">
+                        </form>
+
+                        <!-- You'll Never Walk Alone Text -->
+                        <div class="text-center mt-4">
+                            <h3 style="color: #F6A500;"> YOU SHALL NEVER WALK ALONE</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and FontAwesome -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
